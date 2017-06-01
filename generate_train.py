@@ -95,7 +95,7 @@ def run(doc_file, linked_file, output_dir, process_number):
 
 if __name__ == "__main__":
     if len(sys.argv) != 5:
-        print 'Usage: generate_crf_train.py -RAWTEXT_FILE -LINKED_FILE -OUTPUT_DIR -PROCESS_NUMBER'
+        print 'Usage: generate_train.py -RAWTEXT_FILE -LINKED_FILE -OUTPUT_DIR -PROCESS_NUMBER'
         sys.exit(-1)
 
     doc_file = sys.argv[1]
